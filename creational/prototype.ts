@@ -20,7 +20,7 @@ class Circle extends Shape {
 
 function circleClient() {
   const greenCircle = new Circle("green");
-  const blueCircle = new Circle("green");
+  const blueCircle = new Circle("BLUE");
 
   const greenClone = greenCircle.clone();
   const blueClone = blueCircle.clone();
